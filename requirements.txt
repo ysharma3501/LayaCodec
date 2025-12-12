@@ -1,0 +1,5 @@
+librosa
+safetensors
+huggingface-hub
+torch
+torchaudio
