@@ -56,5 +56,14 @@ Email: yatharthsharma3501@gmail.com
 
 This is also heavily inspired by [FocalCodec](https://github.com/lucadellalib/focalcodec) and [NandemoGHS's xcodec2 model](https://huggingface.co/NandemoGHS/Anime-XCodec2-44.1kHz-v2), so thanks very much to them.
 
-📚 Citation
+## 📚 Citation
+If you find this work helpful, please leave a star and cite our repo. Thanks very much!
+```
+@misc{sharma2025layacodec,
+    title = {{LayaCodec}},
+    author = {Yatharth Sharma},
+    howpublished = {\url{https://github.com/ysharma3501/LayaCodec}},
+    year = {2025},
+}
+```
 
