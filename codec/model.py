@@ -74,6 +74,7 @@ class LayaCodec(nn.Module):
         self.quantizer = REGISTRY[quantizer_name](**self.quantizer_config)
         self.decompressor = REGISTRY[decompressor_name](**self.decompressor_config)
         self.decoder = REGISTRY[decoder_name](**self.decoder_config)
+        self.device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
     def encode_audio(self, audio: "str"):
         """Encodes audio into highly compressed codes from 12.5hz to 50hz"""
