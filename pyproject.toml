@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "LayaCodec"
+version = "0.0.1"
+authors = [
+  { name="Yatharth Sharma", email="yatharthsharma3501@gmail.com" },
+]
+description = "High fidelity neural audio tokenizer"
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "librosa",
+    "torch",
+    "torchaudio",
+    "huggingface-hub",
+    "safetensors"
+]
+
+[project.urls]
+Homepage = "https://github.com/ysharma3501/LayaCodec"
+Issues = "https://github.com/ysharma3501/LayaCodec/issues"
